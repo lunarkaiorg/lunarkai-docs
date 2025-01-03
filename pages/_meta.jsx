@@ -125,7 +125,7 @@ export default {
     },
     "github": {
         "title": "💻 GitHub",
-        "href": "#",
+        "href": "https://github.com/lunarkaiorg",
         "newWindow": true
     },
     "twitter": {
