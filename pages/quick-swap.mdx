@@ -1,0 +1,85 @@
+Quick Token Swap enables seamless cryptocurrency exchanges with optimal rates across various decentralized exchanges and protocols. Through natural language commands, users can perform complex swap operations without dealing with the technical complexities of DeFi interactions.
+
+## How It Works
+
+When you request a swap, Lunark AI automatically handles the entire process for you. The system analyzes current market rates across multiple protocols, identifies the most efficient swap routes, and calculates optimal slippage settings based on market conditions. Once this analysis is complete, Lunark AI prepares the transaction details and presents you with clear execution options.
+
+User initiates a swap:
+
+```javascript
+User: "Swap 1000 USDT for ETH"
+Lunark: "I've analyzed routes across multiple protocols. Here's the best option:
+
+Route: USDT -> ETH via Uniswap V3
+Expected output: 0.425 ETH
+Gas fee: $12.50
+Price impact: 0.05%
+
+[Execute Swap]"
+```
+
+Complex route example:
+
+```javascript
+User: "Swap 10,000 USDT for ETH"
+Lunark: "For better pricing, I suggest splitting this trade:
+- 60% via Uniswap V3
+- 40% via Curve
+Total output: 4.27 ETH
+Savings: +0.12 ETH compared to single route
+[Execute Split Swap]"
+```
+
+## Smart Routing
+
+Our system takes a comprehensive approach to finding the best swap route for your transaction. By analyzing token prices across major DEX protocols, considering liquidity depth and potential slippage, and factoring in gas costs and transaction speed, Lunark AI ensures you get the best possible outcome for your swap. This includes sophisticated routes that may split your transaction across multiple protocols for optimal results.
+
+Protocol selection example:
+
+```javascript
+User: "What's the best rate for swapping USDT to ETH?"
+Lunark: "I've found these routes:
+
+1. Uniswap V3: 1 ETH = 2,350 USDT
+   Gas: $12.50
+2. Curve: 1 ETH = 2,348 USDT
+   Gas: $14.20
+3. Split (60/40): 1 ETH = 2,352 USDT
+   Gas: $16.80
+
+The split route gives the best final amount. Would you like me to prepare this swap?"
+```
+
+## Transaction Preview
+
+Before any swap execution, you'll receive a detailed transaction overview. This includes the expected output amount from your swap, current exchange rates, applicable gas fees, potential price impact, and the minimum amount you're guaranteed to receive. For complex routes involving multiple protocols, you'll see a clear breakdown of how your transaction will be processed.
+
+## Protocol Support
+
+Lunark AI integrates with leading DeFi protocols to ensure optimal trading outcomes. Currently supported protocols include:
+- Uniswap V2 & V3
+- Curve Finance
+- Balancer
+- 1inch
+- PancakeSwap
+- SushiSwap
+- And more to come
+
+Advanced swap features:
+
+```javascript
+User: "Get me the best rate for ETH"
+Lunark: "Current best rates for 1 ETH:
+- USDT: 2,352 (Uniswap V3)
+- USDC: 2,351 (Curve)
+- DAI: 2,349 (Balancer)
+
+Would you like to set up a price alert or execute a swap?"
+```
+
+Limit order-style swap:
+
+```javascript
+User: "Swap USDT for ETH when it goes below 2300"
+Lunark: "I'll monitor prices across all protocols and execute the swap when ETH price drops below 2300 USDT. I'll notify you once the condition is met."
+```
