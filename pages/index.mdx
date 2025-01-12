@@ -1,22 +1,62 @@
 ![Lunark AI Welcome](/images/welcome.webp)
 
-Lunark AI transforms blockchain interactions through an advanced dual intelligence system, combining a conversational AI assistant with an autonomous AI agent. Our platform makes blockchain technology accessible while maintaining enterprise-grade capabilities.
+The blockchain space has long been dominated by complex interfaces and technical barriers. Lunark AI transforms this landscape through our innovative dual intelligence system, making blockchain interaction as natural as conversation while maintaining enterprise-grade capabilities.
 
 ## Dual Intelligence System
 
-Our AI Assistant acts as your blockchain interpreter, understanding natural language commands and translating your intentions into precise operations. Working alongside it, our AI Agent autonomously executes complex tasks while continuously learning and improving platform capabilities through advanced algorithms.
+Our system combines an AI Assistant for natural language communication with an Autonomous Agent that continuously learns and improves capabilities. The AI Assistant acts as your blockchain interpreter, understanding natural language commands and translating your intentions into precise operations. Working alongside it, our AI Agent autonomously executes complex tasks while developing optimal patterns and strategies through sophisticated memory and RAG systems.
 
-The system's foundation rests on sophisticated memory architecture, utilizing both short and long-term memory for enhanced context understanding and task execution. Our integration of retrieval-augmented generation (RAG) ensures accurate and up-to-date blockchain operations.
+![Architecture Diagram](/images/why-lunarkai.webp)
+
+## The Power of Natural Language
+
+Traditional blockchain operations require technical expertise and multiple steps. With Lunark AI, complex operations like token transfers, smart contract interactions, and cross-chain transactions become as simple as expressing your intent in natural language.
+
+For example, a simple token transfer:
+
+Traditional Method:
+
+```javascript
+// 1. Setup Provider and Network Connection
+const provider = new ethers.JsonRpcProvider("https://ethereum.rpc.com");
+
+// 2. Wallet Setup with Private Key (Must be secured)
+const privateKey = "0xYourPrivateKey...";
+const signer = new ethers.Wallet(privateKey, provider);
+
+// 3. USDT Contract Setup
+const usdtAddress = "0xdAC17F958D2ee523a2206206994597C13D831ec7"; // Ethereum USDT
+const usdtABI = [
+   "function transfer(address to, uint value)",
+   "function balanceOf(address owner) view returns (uint256)"
+];
+const usdtContract = new ethers.Contract(
+  usdtAddress, 
+  usdtABI, 
+  signer
+);
+
+// 4. Adam's Ethereum Address Lookup (Must be stored somewhere)
+const adamsAddress = "0x742...";
+
+// 5. Execute Transfer (USDT uses 6 decimals)
+await usdtContract.transfer(
+  adamsAddress,
+  ethers.parseUnits("10", 6) // Convert 10 USDT to proper decimals
+);
+```
+
+With Lunark AI - Simple, natural language command:
+
+```javascript
+Send 10 USDT to Adam
+```
 
 ## Key Features
 
 The platform eliminates technical barriers while maintaining robust security through natural language processing that makes blockchain interactions intuitive and straightforward. Our autonomous execution system optimizes tasks and platform performance, while advanced memory systems provide deep contextual understanding of user needs and blockchain operations.
 
 The adaptive interface caters to users across all expertise levels, providing detailed guidance for beginners while offering streamlined efficiency for advanced users.
-
-## Getting Started
-
-Begin your journey by simply expressing your blockchain-related goals in natural language. Our AI assistant will understand your intent and confirm details, while our agent executes operations with precision and security. This approach makes complex blockchain operations as simple as having a conversation.
 
 ## Platform Evolution
 

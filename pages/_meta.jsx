@@ -1,136 +1,144 @@
-export default {
-    "index": {
-        "title": "👋 Welcome"
-    },
-    "why-lunark": {
-        "title": "🎯 Why Lunark AI?"
-    },
-    "core-concepts": {
-        "title": "🧠 Core Concepts" 
-    },
-    "getting-started": {
-        "title": "🚀 Getting Started"
-    },
-    "features": {
-        "title": "✨ Features"
-    },
- 
-    "MAIN COMPONENTS": {
-        "type": "separator",
-        "title": "MAIN COMPONENTS"
-    },
-    "ai-assistant": {
-        "title": "🤖 AI Assistant"
-    },
-    "autonomous-agent": {
-        "title": "🦾 Autonomous AI Agent"
-    },
-    "dual-intelligence": {
-        "title": "🧩 Dual Intelligence System"
-    },
- 
-   "CORE FEATURES": {
-        "type": "separator",
-        "title": "CORE FEATURES"
-    },
-    "address-book": {
-        "title": "📘 Address Book"
-    },
-    "quick-transfer": {
-        "title": "⚡ Quick Transfer"
-    },
-    "quick-swap": {
-        "title": "🔄 Quick Token Swap"
-    },
-    "bridge": {
-        "title": "🌉 Bridge"
-    },
-    "trade": {
-        "title": "📊 Trading"
-    },
-    "learn": {
-        "title": "📚 Learn"
-    },
-    "deploy": {
-        "title": "🚀 Smart Contract Deployment"
-    },
- 
-    "GUIDES": {
-        "type": "separator",
-        "title": "GUIDES"
-    },
-    "basic-operations": {
-        "title": "📚 Basic Operations"
-    },
-    "token-management": {
-        "title": "💰 Token Management"
-    },
-    "smart-contracts": {
-        "title": "📜 Smart Contract Interactions"
-    },
-    "security": {
-        "title": "🛡️ Security Guidelines"
-    },
- 
-    "ECOSYSTEM": {
-        "type": "separator",
-        "title": "ECOSYSTEM"
-    },
-    "use-cases": {
-        "title": "💡 Use Cases"
-    },
-    "integrations": {
-        "title": "🔗 Integrations"
-    },
-    "community": {
-        "title": "👥 Community"
-    },
- 
-    "FUTURE FEATURES": {
-        "type": "separator",
-        "title": "FUTURE FEATURES"
-    },
-    "group-transactions": {
-        "title": "👥 Group Transactions"
-    },
-    "recurring-payments": {
-        "title": "🔄 Recurring Payments"
-    },
-    "smart-notifications": {
-        "title": "🔔 Smart Notifications"
-    },
- 
-    "RESOURCES": {
-        "type": "separator",
-        "title": "RESOURCES"
-    },
-    "faq": {
-        "title": "❓ FAQ"
-    },
-    "troubleshooting": {
-        "title": "🔧 Troubleshooting"
-    },
-    "roadmap": {
-        "title": "🗺️ Roadmap"
-    },
+import React from 'react'
 
-    "MISC": {
-        "type": "separator",
-        "title": "MISC"
-    },
-    "website": {
-        "title": "🌐 Website",
-        "href": "https://lunarkai.org",
-        "newWindow": true
-    },
-    "github": {
-        "title": "💻 GitHub",
-        "href": "https://github.com/lunarkaiorg",
-        "newWindow": true
-    },
-    "twitter": {
-        "title": "🐦 Twitter",
-        "href": "https://twitter.com/lunarkaiorg",
-        "newWindow": true
-    }
- };
+export default {
+  index: {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>🌟</span>
+      {"Introduction"}
+    </>
+  },
+  "getting-started": {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>🚀</span>
+      {"Getting Started"}
+    </>
+  },
+
+  "FEATURES": {
+    type: "separator",
+    title: "FEATURES"
+  },
+  "address-book": {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>📘</span>
+      {"Address Book"}
+    </>
+  },
+  "quick-transfer": {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>⚡</span>
+      {"Quick Transfer"}
+    </>
+  },
+  "quick-swap": {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>🔄</span>
+      {"Quick Token Swap"}
+    </>
+  },
+  "bridge": {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>🌉</span>
+      {"Bridge"}
+    </>
+  },
+  "trade": {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>📊</span>
+      {"Trading"}
+    </>
+  },
+  "learn": {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>📚</span>
+      {"Learn"}
+    </>
+  },
+  "deploy": {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>🚀</span>
+      {"Smart Contract Deployment"}
+    </>
+  },
+
+  "ECOSYSTEM": {
+    type: "separator",
+    title: "ECOSYSTEM"
+  },
+  "use-cases": {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>💡</span>
+      {"Use Cases"}
+    </>
+  },
+  "integrations": {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>🔗</span>
+      {"Integrations"}
+    </>
+  },
+  "community": {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>👥</span>
+      {"Community"}
+    </>
+  },
+
+  "RESOURCES": {
+    type: "separator",
+    title: "RESOURCES"
+  },
+  "token-economy": {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>💰</span>
+      {"Token Economy"}
+    </>
+  },
+  roadmap: {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>🗺️</span>
+      {"Roadmap"}
+    </>
+  },
+  faq: {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>❓</span>
+      {"FAQ"}
+    </>
+  },
+  troubleshooting: {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>🔧</span>
+      {"Troubleshooting"}
+    </>
+  },
+
+  "MISC": {
+    type: "separator",
+    title: "MISC"
+  },
+  website: {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>🌐</span>
+      {"Website"}
+    </>,
+    href: "https://lunarkai.org",
+    newWindow: true
+  },
+  github: {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>💻</span>
+      {"GitHub"}
+    </>,
+    href: "https://github.com/lunarkaiorg",
+    newWindow: true
+  },
+  twitter: {
+    title: <>
+      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>🐦</span>
+      {"Twitter"}
+    </>,
+    href: "https://twitter.com/lunarkaiorg",
+    newWindow: true
+  }
+}
