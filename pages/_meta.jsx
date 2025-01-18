@@ -1,4 +1,5 @@
 import React from 'react'
+import { RiGlobalLine, RiGithubFill, RiTwitterFill, RiLinkedinBoxFill } from 'react-icons/ri'
 
 export default {
   index: {
@@ -13,7 +14,6 @@ export default {
       {"Getting Started"}
     </>
   },
-
   "FEATURES": {
     type: "separator",
     title: "FEATURES"
@@ -60,7 +60,6 @@ export default {
       {"Smart Contract Deployment"}
     </>
   },
-
   "ECOSYSTEM": {
     type: "separator",
     title: "ECOSYSTEM"
@@ -83,7 +82,6 @@ export default {
       {"Community"}
     </>
   },
-
   "RESOURCES": {
     type: "separator",
     title: "RESOURCES"
@@ -112,14 +110,13 @@ export default {
       {"Troubleshooting"}
     </>
   },
-
   "MISC": {
     type: "separator",
     title: "MISC"
   },
   website: {
     title: <>
-      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>🌐</span>
+      <RiGlobalLine style={{ opacity: 0.5, marginRight: "0.5em", marginTop: "0.2em" }} />
       {"Website"}
     </>,
     href: "https://lunarkai.org",
@@ -127,7 +124,7 @@ export default {
   },
   github: {
     title: <>
-      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>💻</span>
+      <RiGithubFill style={{ opacity: 0.5, marginRight: "0.5em", marginTop: "0.2em" }} />
       {"GitHub"}
     </>,
     href: "https://github.com/lunarkaiorg",
@@ -135,10 +132,18 @@ export default {
   },
   twitter: {
     title: <>
-      <span style={{ opacity: 0.5, marginRight: "0.5em" }}>🐦</span>
+      <RiTwitterFill style={{ opacity: 0.5, marginRight: "0.5em", marginTop: "0.2em" }} />
       {"Twitter"}
     </>,
     href: "https://twitter.com/lunarkaiorg",
+    newWindow: true
+  },
+  linkedin: {
+    title: <>
+      <RiLinkedinBoxFill style={{ opacity: 0.5, marginRight: "0.5em", marginTop: "0.2em" }} />
+      {"LinkedIn"}
+    </>,
+    href: "https://www.linkedin.com/company/lunark-ai",
     newWindow: true
   }
 }

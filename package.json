@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tanstack/react-table": "^8.20.6",
+    "iconoir-react": "^7.10.1",
     "next": "15.1.2",
     "nextra": "^3.3.0",
     "nextra-theme-docs": "^3.3.0",
