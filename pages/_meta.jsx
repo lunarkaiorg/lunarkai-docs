@@ -1,5 +1,5 @@
 import React from 'react'
-import { RiGlobalLine, RiGithubFill, RiTwitterFill, RiLinkedinBoxFill } from 'react-icons/ri'
+import { RiGlobalLine, RiGithubFill, RiTwitterFill, RiLinkedinBoxFill, RiTwitterXFill } from 'react-icons/ri'
 
 export default {
   index: {
@@ -132,7 +132,7 @@ export default {
   },
   twitter: {
     title: <>
-      <RiTwitterFill style={{ opacity: 0.5, marginRight: "0.5em", marginTop: "0.2em" }} />
+      <RiTwitterXFill style={{ opacity: 0.5, marginRight: "0.5em", marginTop: "0.2em" }} />
       {"Twitter"}
     </>,
     href: "https://twitter.com/lunarkaiorg",
