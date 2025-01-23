@@ -1,5 +1,5 @@
 import React from 'react'
-import { RiGlobalLine, RiGithubFill, RiTwitterFill, RiLinkedinBoxFill, RiTwitterXFill } from 'react-icons/ri'
+import { RiGlobalLine, RiGithubFill, RiLinkedinBoxFill, RiTwitterXFill } from 'react-icons/ri'
 
 export default {
   index: {
